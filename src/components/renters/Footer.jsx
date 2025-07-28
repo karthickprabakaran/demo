@@ -22,8 +22,8 @@ const Footer = () => {
         <div className="flex flex-col  mt-2 items-end space-y-4">
           <img src={appStoreBadge} alt="Download on the App Store" className="w-[140px]" />
           <div className="flex flex-col md:flex-row md:items-center crimson gap-10 text-[22px] font-semibold underline text-white underline-offset-4">
-            <a href="#">For Renters</a>
-            <a href="#">For Rentals/Realtors</a>
+            <Link to="/renters"> <a href="#">For Renters</a></Link>
+            <Link to="/"> <a href="#">For Rentals/Realtors</a></Link>
           </div>
         </div>
       </div>
