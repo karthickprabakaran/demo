@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*import for the crismon font  */
+
+
+@import '@fontsource/crimson-pro/600.css';
+
+
+body {
+  background-color: #F1F4FC;
+}
+
+
+
+
+@font-face{
+  font-family: Crimson Pro ;
+  src : url(../assets/fonts/CrimsonPro-Variable.ttf);
+}
+
+
+.crimson{
+  font-family: Crimson Pro;
+  }
+
